@@ -4,7 +4,7 @@ Setting up "AWS RDS" so that administrators spend less time in operational tasks
 
 Step 1 — Search for Database Services
 
-![Step 1](images/DATABASE_SEARCH.png)
+![Step 1](DATABASE_SEARCH.png)
 
 In the top navigation bar search box, type: **database insights**
 From the results under Services, review available options such as RDS, DynamoDB, and Database Migration Service.
@@ -13,7 +13,7 @@ From the results under Services, review available options such as RDS, DynamoDB,
 
 Step 2 — AMI Catalog
 
-![Step 2](images/STEP2_AMI-CATALOGUE.png)
+![Step 2]STEP2_AMI-CATALOGUE.png)
 
 In the left navigation pane, click **AMI Catalog**.
 This section provides available machine images used to launch instances.
@@ -22,7 +22,7 @@ This section provides available machine images used to launch instances.
 
 Step 3 — AMI SQL Search
 
-![Step 3](images/STEP3_AMI_CONCEPT.png)
+![Step 3](STEP3_AMI_CONCEPT.png)
 
 An Amazon Machine Image (AMI) provides the software required to set up and boot an EC2 instance.
 
@@ -33,7 +33,7 @@ Review the available SQL-related AMIs provided by AWS, Marketplace, and the comm
 
 Step 4 — Database Migration Service
 
-![Step 4](images/DMS.png)
+![Step 4](DMS.png)
 
 Search for **DMS** in the AWS console.
 Select **Database Migration Service** to explore migration capabilities for moving databases into AWS.
@@ -44,7 +44,7 @@ Select **Database Migration Service** to explore migration capabilities for movi
 
  Configuration 1 — Enter RDS & Create Database
 
-![Configuration 1](images/Create_DB.png)
+![Configuration 1](Create_DB.png)
 
 Navigate to **Databases** in the RDS console.
 Click **Create database** to begin the deployment process.
@@ -53,7 +53,7 @@ Click **Create database** to begin the deployment process.
 
 Configuration 2 — Choose Creation Method & Engine
 
-![Configuration 2](images/database_engine.png)
+![Configuration 2](database_engine.png)
 
 For database creation method, choose **Standard create**.
 Under Engine options, select **MariaDB**.
@@ -62,7 +62,7 @@ Under Engine options, select **MariaDB**.
 
 Configuration 3 — Engine Version, Template & DB Identifier
 
-![Configuration 3](images/DB_Configuration1.png)
+![Configuration 3](DB_Configuration1.png)
 
 Keep the default **MariaDB engine version**.
 For Templates, choose **Dev/Test**.
@@ -74,7 +74,7 @@ For DB instance identifier, type:
 
 Configuration 4 — Credentials Settings
 
-![Configuration 4](images/Configuration2.png)
+![Configuration 4](Configuration2.png)
 
 For Master username, keep the default: **admin**
 
@@ -86,7 +86,7 @@ For Master password, type your password and confirm it.
 
 Configuration 5 — Instance & Storage
 
-![Configuration 5](images/Configuration3.png)
+![Configuration 5](Configuration3.png)
 
 For DB instance class, choose **Burstable classes**
 
@@ -100,7 +100,7 @@ For Allocated storage, type: **20 GiB**
 
 Configuration 6 — Storage Autoscaling & Multi-AZ
 
-![Configuration 6](images/Configuration4.png)
+![Configuration 6](Configuration4.png)
 
 Enable **Storage autoscaling**
 
@@ -113,7 +113,7 @@ For Multi-AZ deployment, choose:
 
 Configuration 7 — Networking & Security
 
-![Configuration 7](images/Configuration5.png)
+![Configuration 7](Configuration5.png)
 
 For Virtual Private Cloud (VPC), keep the **default VPC**
 
@@ -127,7 +127,7 @@ For VPC security group, choose **existing**
 
 Configuration 8 — Monitoring Settings
 
-![Configuration 8](images/Configuration6.png)
+![Configuration 8](Configuration6.png)
 
 For Monitoring, keep **Database Insights – Standard**
 
@@ -139,7 +139,7 @@ Under Additional monitoring settings, disable **Enhanced Monitoring**
 
 Configuration 9 — Database Options & Backup
 
-![Configuration 9](images/Configuration7.png)
+![Configuration 9](Configuration7.png)
 
 Expand **Additional configuration**
 
@@ -154,7 +154,7 @@ Ensure **automated backups** are enabled
 
 Configuration 10 — Encryption & Maintenance
 
-![Configuration 10](images/Configuration8.png)
+![Configuration 10](Configuration8.png)
 
 Review default **encryption settings (AES-256)**
 
@@ -170,7 +170,7 @@ Verification
 
 Configuration 11 — Database Created
 
-![Configuration 11](images/Configuration9.png)
+![Configuration 11](Configuration9.png)
 
 After creation, wait a few minutes.
 
@@ -180,7 +180,7 @@ Confirm that the database status changes to: **Available**
 
 Configuration 12 — Database Details & Actions
 
-![Configuration 12](images/Configuration10.png)
+![Configuration 12](Configuration10.png)
 
 Click on **my-database** to view details
 
