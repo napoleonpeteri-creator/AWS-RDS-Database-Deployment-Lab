@@ -13,7 +13,7 @@ From the results under Services, review available options such as RDS, DynamoDB,
 
 Step 2 — AMI Catalog
 
-![Step 2]STEP2_AMI-CATALOGUE.png)
+![Step 2](STEP2_AMI-CATALOGUE.png)
 
 In the left navigation pane, click **AMI Catalog**.
 This section provides available machine images used to launch instances.
