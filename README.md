@@ -1,8 +1,8 @@
-# AWS-RDS-Database-Deployment-Lab
+AWS-RDS-Database-Deployment-Lab
 Setting up "AWS RDS" so that administrators spend less time in operational tasks, such as patching and managing database infrastructure and also improve database availability and efficiency.
 
 
- Step 1 — Search for Database Services
+Step 1 — Search for Database Services
 
 ![Step 1](images/DATABASE_SEARCH.png)
 
