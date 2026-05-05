@@ -62,7 +62,7 @@ Under Engine options, select **MariaDB**.
 
 Configuration 3 — Engine Version, Template & DB Identifier
 
-![configuration 3](configuration3.png)
+![configuration 3](Configuration3.png)
 
 ![Configuration 3](DB_Configuration1.png)
 
