@@ -60,17 +60,7 @@ Under Engine options, select **MariaDB**.
 
 
 
-Configuration 3 — Engine Version, Template & DB Identifier
-
-![configuration 3](Configuration3.png)
-
-![Configuration 3](DB_Configuration1.png)
-
-Keep the default **MariaDB engine version**.
-For Templates, choose **Dev/Test**.
-
-For DB instance identifier, type:
-**my-database**
+Engine Version, Template & DB Identifier
 
 
 
